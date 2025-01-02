@@ -1,7 +1,7 @@
 import boto3
 from botocore.exceptions import NoCredentialsError
 
-BUCKET_NAME = "my-secure-website-tt11"
+BUCKET_NAME = "bucket-name"
 
 def upload_file(file_name, bucket, object_name=None):
     """Upload a file to S3 bucket and check permissions."""
